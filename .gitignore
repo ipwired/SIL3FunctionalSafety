@@ -1,0 +1,48 @@
+# Build results
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / VS Code
+.idea/
+*.iml
+.vscode/
+
+# NuGet
+*.nupkg
+**/packages/*
+!**/packages/README.*
+
+# Logs
+*.log
+
+# OS junk
+[Dd]esktop.ini
+[Tt]humbs.db
+*.DS_Store
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Test results
+TestResult*/
+*.trx
+*.coverage
+*.coveragexml
+
+# Publish artifacts
+publish/
+artifacts/
+
+# Configuration secrets (if any)
+*.user.config
+appsettings.*.json
